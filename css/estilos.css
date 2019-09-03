@@ -1,0 +1,30 @@
+@import url('normalize.css');
+body,
+html{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	height: 1000px;
+}
+
+#image{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	display: block;
+	transition: all .3s ease-in-out;
+}
+#image:hover{
+	-webkit-transform: skew(-5deg,-5deg) scale(1.5,1.5) rotate(45deg) translateX(50px);
+	-moz-transform: skew(-5deg,-5deg) scale(1.5,1.5) rotate(45deg) translateX(50px);
+	-ms-transform: skew(-5deg,-5deg) scale(1.5,1.5) rotate(45deg) translateX(50px);
+	-o-transform: skew(-5deg,-5deg) scale(1.5,1.5) rotate(45deg) translateX(50px);
+	transform: skew(-5deg,-5deg) scale(1.5,1.5) rotate(45deg) translateX(50px);
+	transform-origin: left top;
+	
+}
+
+/*
+
+transform: function1() function2();
+*/
